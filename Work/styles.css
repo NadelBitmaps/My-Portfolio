@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9d9292;
+}
+
+header{
+
+background-color: #fff;
+width: 100%;
+height: 100px;
+}
+
+header .header-logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+.index-banner{
+    background: url(../Work/Images/index_image.jpg) no-repeat center/cover;
+    min-height: 80vh;
+}
+
+header nav ul li{
+    display: inline-block;
+    /* float: left; */
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;  
+}
+
+header .header-cases{
+    display: none;
+}
+
+<!--INDEX-->
+
+.index-banner{
+    width: 100%;
+    height: calc(100vh-100px);
+    background-image: url(../Work/Images/index_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.verticalcenter{
+display: table-cell;
+vertical-align: middle;
+}
+
+.index-banner h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff; 
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+
+.index-banner h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 34px;
+    color: #fff; 
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-links{
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}

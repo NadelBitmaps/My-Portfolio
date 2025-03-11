@@ -1,0 +1,14 @@
+.body{
+    min-height: 800px;
+    border: 3px solid #020000;
+    
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(68, 191, 68);
+    font-size: 20pt;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+}

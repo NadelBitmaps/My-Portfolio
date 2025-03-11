@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+     font-family: "Signika Negative", serif
+}
+.flexDivs{
+    display: flex;
+    justify-content: space-between;
+}
+.spacearound{
+    display: flex;
+    justify-content: space-around;
+} 
+.flexDivs div, .spacearound div{
+    width: 200px;
+    height: 200px;
+    background: dodgerblue;
+    color: #fff;
+    text-align: center;
+    line-height: 7;
+}
